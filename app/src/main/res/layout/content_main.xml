@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="od.com.odisha.MainActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/map"
+
+        android:layout_marginTop="105dp"
+        android:id="@+id/map"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/mainattraction">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="330dp"
+            android:layout_marginLeft="130dp"
+            android:onClick="map" android:src="@drawable/pin2"
+            android:id="@+id/item2"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="305dp"
+            android:layout_marginLeft="240dp"
+            android:onClick="map" android:src="@drawable/pin2"
+            android:id="@+id/item3"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="310dp"
+            android:layout_marginLeft="210dp"
+            android:onClick="map" android:src="@drawable/pin2"
+            android:id="@+id/item4"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="200dp"
+            android:onClick="map" android:src="@drawable/pin2"
+            android:id="@+id/item7"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:src="@drawable/pin2"
+        android:id="@+id/wildlife">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="330dp"
+            android:layout_marginLeft="130dp"
+            android:onClick="map" android:src="@drawable/pin2"
+            android:id="@+id/item2"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="300dp"
+            android:onClick="map" android:src="@drawable/pin2"
+            android:id="@+id/item9"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="270dp"
+            android:onClick="map" android:src="@drawable/pin2"
+            android:id="@+id/item11"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="278dp"
+            android:layout_marginLeft="215dp"
+            android:onClick="map" android:src="@drawable/pin2"
+            android:id="@+id/item14"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/heritageandculture">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="305dp"
+            android:layout_marginLeft="238dp"
+            android:onClick="map" android:src="@drawable/pin2"
+            android:id="@+id/item3"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="304dp"
+            android:layout_marginLeft="246dp"
+            android:onClick="map" android:src="@drawable/pin2"
+            android:id="@+id/item4"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="200dp"
+            android:onClick="map" android:src="@drawable/pin2"
+            android:id="@+id/item5"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="284dp"
+            android:layout_marginLeft="224dp"
+            android:onClick="map" android:src="@drawable/pin2"
+            android:id="@+id/item10"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="200dp"
+            android:onClick="map" android:src="@drawable/pin2"
+            android:id="@+id/item7"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="325dp"
+            android:layout_marginLeft="150dp"
+            android:onClick="map" android:src="@drawable/pin2"
+            android:id="@+id/item13"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/beaches">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="309dp"
+            android:layout_marginLeft="228dp"
+            android:onClick="map" android:src="@drawable/pin2"
+            android:id="@+id/item15"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/events">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="310dp"
+            android:layout_marginLeft="210dp"
+            android:onClick="map" android:src="@drawable/pin2"
+            android:id="@+id/item17"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#ffffff"
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemImage"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTitle"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/itemImage"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textAbout"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/textTitle"
+        android:text=""
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/textAbout"
+        android:text=""
+        />
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="15dp"
+        android:id="@+id/Bool"
+        android:background="@color/colorPrimary"
+        android:layout_margin="5dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/time"
+        android:text="Book"
+
+        />
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="15dp"
+        android:layout_alignLeft="@+id/Bool"
+        android:text="Share"
+        android:textColor="#ffffff"
+
+        android:layout_marginLeft="130dp"
+        android:layout_alignTop="@+id/Bool"
+        android:background="@color/colorPrimary"
+        />
+</RelativeLayout>

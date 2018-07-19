@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav"
+            android:title="Top" />
+        <item
+            android:id="@+id/nav_wild"
+            android:title="Wildlife" />
+        <item
+            android:id="@+id/nav_cult"
+            android:title="Culture" />
+        <item
+            android:id="@+id/nav_shop"
+            android:title="Shopping" />
+        <item
+            android:id="@+id/nav_beaches"
+            android:title="Beaches" />
+
+        <item
+            android:id="@+id/nav_evnt"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_cfnt"
+            android:title="Booking" />
+
+    </group>
+
+
+
+</menu>
